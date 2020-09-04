@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  width: 100wh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbe1fa;
+}
+
+.container {
+  height: 25%;
+  width: 10rem;
+  background-color: #303030;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  font-size: 3rem;
+  width: 4rem;
+  background-color: #bbe1fa;
+  color: #0f4c75;
+  border-radius: 0.3rem;
+  outline: none;
+  margin: 0.5rem 0.5rem;
+}
+
+#counter {
+  font-size: 4rem;
+  color: #fff;
+}
